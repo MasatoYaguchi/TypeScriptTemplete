@@ -19,9 +19,11 @@ module.exports = {
     },
     output: {
         //  出力ファイルのディレクトリ名
-        path: `${__dirname}/dist`,
+        path: `${__dirname}/dist/js`,
+        //ブラウザからバンドルにアクセスする際のパス
+        publicPath: "/js/", 
         // 出力ファイル名
-        filename: "main.js"
+        filename: "index.js"
     },
     resolve: {
         // import 文で .ts ファイルを解決するため
