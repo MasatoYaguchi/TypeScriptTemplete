@@ -7,6 +7,6 @@ export const hello = (message: string): void => {
   function log(message: string) :void{
     document.body.innerHTML = (`${message}`);
   
-    console.log(`${message}を出力しました`);
+    console.log(`${message}を出力されました`);
   }
   

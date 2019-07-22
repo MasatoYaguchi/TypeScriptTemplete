@@ -1,6 +1,6 @@
 import {hello} from './sub';
 
-const message: string = 'Hello World';
+const message: string = 'Webpack serverを導入';
 
 console.log("main.js");
 window.onload=()=>{
