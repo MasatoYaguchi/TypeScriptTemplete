@@ -1,3 +1,15 @@
+# How to
+
+このリポジトリのwebpack.config.jsとpackage.jsonを適当なフォルダに入れて  
+`yarn`コマンド実行で環境構築できるはず
+
+
+# To do
+
+http://cloudcafe.tech/?p=653
+ここらを参考にビルド後の圧縮設定を行う
+
+
 # TypeScriptの設定
 
 参考URL  
@@ -129,3 +141,7 @@ webpack-dev-serverで書き出されるjsはメモリ上に書き出されるの
     },
 ~~~~
 
+/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox -start-debugger-server
+
+
+/Applications/Firefox.app/Contents/MacOS/firefox -start-debugger-server
